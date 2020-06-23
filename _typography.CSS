@@ -1,0 +1,86 @@
+
+
+font-family: 'Crimson Text', serif;
+font-family: 'Work Sans', sans-serif;
+
+h1{
+  font-size: 44px;
+}
+h1{
+  font-family: 'Work Sans';
+  letter-spacing: 0.6rem;
+  font-size: 36px;
+}
+
+h2{
+  font-family: 'Work Sans';
+  font-size: 32px;
+  letter-spacing: 0.6rem;
+}
+
+h3{
+  font-family: 'Work Sans';
+  letter-spacing: 0.1rem;
+  font-size: 20px;
+}
+
+ul.navbar{
+  font-family: 'Work Sans';
+  list-style: none;
+  font-size: 24px;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+ul.topSellers{
+  font-family: "Crimson Text";
+  font-size: 22px;
+  line-height: 2.3rem;
+}
+
+.howToUse{
+  font-family: "Crimson Text";
+  list-style: none;
+  font-size: 30px;
+  line-height: 4rem;
+}
+
+.section1{
+  font-size: 22px;
+  font-family: "Crimson Text";
+}
+
+.section2{
+  font-size: 22px;
+  font-family: "Crimson Text";
+}
+
+.ingredTitle{
+  font-size: 16px;
+  font-family: 'Work Sans';
+  letter-spacing: 0.1rem;
+}
+
+.section3{
+  font-size: 32px;
+  font-family: 'Work Sans';
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.Ann{
+  font-size: 26px;
+  font-family: "Crimson Text";
+
+  letter-spacing: 0.1rem;
+}
+
+.section4{
+  font-size: 28px;
+  font-family: "Crimson Text";
+}
+
+.section5{
+  font-size: 22px;
+  font-family: "Crimson Text";
+}
