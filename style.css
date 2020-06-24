@@ -489,8 +489,9 @@ transition: 0.4s ease-in-out;
   .section5{
     grid-column: 1/span 4;
     padding: 0;
+    margin-right: 150px;
     margin-top: 250px;
-    margin-left: 100px;
+    margin-left: 150px;
     font-size: 18px;
     background-color: #C2B1B1;
     transition: all 0.4s ease-in-out;
@@ -564,6 +565,7 @@ transition: 0.4s ease-in-out;
 }
 
   .row2{
+    padding-left: 60px;
     display: flex;
   }
   .column2{
@@ -575,7 +577,7 @@ transition: 0.4s ease-in-out;
 
 
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
 
   ul.navbar{
     font-size: 14px;
@@ -587,6 +589,7 @@ transition: 0.4s ease-in-out;
   .packaging {
     width:300px;
     padding: 0;
+    margin-right: 60px;
     transition: all 0.3s ease-in-out;
   }
 
@@ -594,14 +597,24 @@ transition: 0.4s ease-in-out;
     font-size: 18px;
     grid-column: 1/ span 2;
     padding: 0;
-    margin-left: 30px;
-    padding-right: 30px;
+
+    margin-left: 50px;
+    padding-right: 80px;
   }
 
   .howToUse{
     font-size: 20px;
     padding-left: 20px;
   }
+
+  .section5{
+    grid-column: 1;
+    padding: 0;
+    margin: 0;
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+
 
   .related{
     font-size: 12px;
