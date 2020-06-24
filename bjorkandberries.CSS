@@ -281,19 +281,26 @@ transition: 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.column {
+.column1 {
+  flex: 30%;
+  padding: 70px;
+  padding-bottom: 1px;
+}
+
+.column2 {
   flex: 30%;
   padding: 70px;
   padding-bottom: 1px;
 }
 
 .related{
-  padding-top: 20px;
+  padding-top: 100px;
   padding-left: 450px;
 }
 
 .faceOil {
   width: 200px;
+  margin-top: 20px;
   transition: 0.4s ease-in-out;
 }
 .faceOil:hover{
@@ -421,6 +428,7 @@ transition: 0.4s ease-in-out;
   .oat-wrapper{
     grid-column: 1/ span 5;
     margin-bottom: 80px;
+    padding-left: 40px;
   }
 
   .oat{
@@ -434,12 +442,14 @@ transition: 0.4s ease-in-out;
   .related{
     padding: 0;
     margin: 0;
+    padding-top: 40px;
     padding-left: 150px;
     transition: all 0.4s ease-in-out;
   }
 
   .faceOil {
     width: 180px;
+
     padding-left: 20px;
     transition: all 0.4s ease-in-out;
   }
@@ -461,7 +471,7 @@ transition: 0.4s ease-in-out;
     transform: scale(0.95);
   }
   .botanist{
-    width: 105px;
+    width: 115px;
     transition: all 0.4s ease-in-out;
   }
   .botanist:hover{
