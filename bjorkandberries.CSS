@@ -284,13 +284,13 @@ transition: 0.4s ease-in-out;
 .column1 {
   flex: 30%;
   padding: 70px;
-  padding-bottom: 1px;
+  padding-bottom: 5px;
 }
 
 .column2 {
   flex: 30%;
   padding: 70px;
-  padding-bottom: 1px;
+  padding-bottom: 5px;
 }
 
 .related{
