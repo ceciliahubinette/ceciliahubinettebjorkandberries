@@ -241,7 +241,6 @@ ul.topSellers{
 }
 
 .Ann {
-  padding-top: 30px;
   font-size: 26px;
   font-family: "Crimson Text";
   letter-spacing: 0.1rem;
@@ -274,7 +273,7 @@ ul.topSellers{
 font-size: 28px;
 font-family: "Crimson Text";
 grid-column: 4/ span 7;
-padding-top: 90px;
+padding-top: 60px;
 padding-bottom: 80px;
 padding-left: 40px;
 z-index: 2;
@@ -293,7 +292,7 @@ transition: 0.4s ease-in-out;
 .section5 {
   font-size: 22px;
   font-family: "Crimson Text";
-  padding-top: 130px;
+  padding-top: 80px;
   padding-bottom: 60px;
   grid-column: 7/ span 3;
   z-index: 3;
