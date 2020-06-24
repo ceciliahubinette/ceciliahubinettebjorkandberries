@@ -198,7 +198,8 @@ transition: 0.4s ease-in-out;
   z-index: 2;
   transition: 0.4s ease-in-out;
 }
-.Ann{
+
+.Ann {
   padding-top: 30px;
 }
 
@@ -211,12 +212,12 @@ transition: 0.4s ease-in-out;
   display: block;
 }
 
-.howTo{
+.howTo {
   padding-left: 40px;
   transition: 0.4s ease-in-out;
 }
 
-.section4{
+.section4 {
 grid-column: 4/ span 7;
 padding-top: 90px;
 padding-bottom: 80px;
@@ -281,19 +282,28 @@ transition: 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.column1 {
+.column {
   flex: 30%;
   padding: 70px;
   padding-bottom: 5px;
+}
+
+.row2 {
+  display: flex;
+  transition: all 0.4s ease-in-out;
+  display: none;
 }
 
 .column2 {
   flex: 30%;
   padding: 70px;
   padding-bottom: 5px;
+  display: none;
 }
 
+
 .related{
+  grid-column: 3/span 4;
   padding-top: 100px;
   padding-left: 450px;
 }
@@ -322,11 +332,13 @@ transition: 0.4s ease-in-out;
 }
 .botanist{
   width: 125px;
+  padding-left: 40px;
   transition: 0.4s ease-in-out;
 }
 .botanist:hover{
   transform: scale(0.92);
 }
+
 
 @media only screen and (max-width:900px){
 
@@ -438,6 +450,13 @@ transition: 0.4s ease-in-out;
   h3{
     font-size: 12px;
   }
+  .row{
+    display: none;
+  }
+
+  .column{
+    display: none;
+  }
 
   .related{
     padding: 0;
@@ -472,13 +491,28 @@ transition: 0.4s ease-in-out;
   }
   .botanist{
     width: 115px;
-    transition: all 0.4s ease-in-out;
   }
+
   .botanist:hover{
     transform: scale(0.92);
   }
   .products{
     margin-left: 25px;
   }
+
+.box4{
+  height: 850px;
+}
+
+  .row2{
+    display: flex;
+  }
+  .column2{
+    display: block;
+    flex: 30%;
+    padding: 70px;
+    padding-bottom: 5px;
+  }
+
 
 }
