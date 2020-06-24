@@ -414,7 +414,7 @@ transition: 0.4s ease-in-out;
   .packaging {
     width:300px;
     padding: 0;
-    padding-left: 70px;
+    padding-left: 60px;
     transition: all 0.3s ease-in-out;
   }
 
@@ -422,7 +422,8 @@ transition: 0.4s ease-in-out;
     font-size: 18px;
     grid-column: 1/ span 3;
     padding: 0;
-    margin-left: 130px;
+    margin-left: 100px;
+    padding-right: 30px;
   }
 
   input[type=button]{
@@ -451,7 +452,7 @@ transition: 0.4s ease-in-out;
     font-size: 18px;
     padding: 0;
     padding: 10px;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-top: 80px;
     transition: all 0.4s ease-in-out;
   }
@@ -572,5 +573,94 @@ transition: 0.4s ease-in-out;
     padding-bottom: 5px;
   }
 
+
+}
+@media only screen and (max-width:500px){
+
+  ul.navbar{
+    font-size: 14px;
+    padding-right: 20px;
+    grid-column: 1/ span 7;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .packaging {
+    width:300px;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .section1{
+    font-size: 18px;
+    grid-column: 1/ span 2;
+    padding: 0;
+    margin-left: 30px;
+    padding-right: 30px;
+  }
+
+  .howToUse{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .related{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 150px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .faceOil {
+    width: 160px;
+
+    padding-left: 20px;
+    transition: all 0.4s ease-in-out;
+  }
+  .faceOil:hover{
+    transform: scale(0.95);
+  }
+  .bodySerum{
+    margin-top: 10px;
+    width: 180px;
+    transition: all 0.4s ease-in-out;
+  }
+  .bodySerum:hover{
+    transform: scale(0.95);
+  }
+  .cSerum{
+    width: 180px;
+    transition: all 0.4s ease-in-out;
+  }
+  .cSerum:hover{
+    transform: scale(0.95);
+  }
+  .botanist{
+    width: 100px;
+  }
+
+  .botanist:hover{
+    transform: scale(0.92);
+  }
+  .products{
+    margin-left: 25px;
+  }
+
+.box4{
+  height: 850px;
+}
+
+  .row2{
+    display: flex;
+    padding: 0;
+    padding-left: 20px;
+  }
+  .column2{
+    display: block;
+    flex: 30%;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
 
 }
